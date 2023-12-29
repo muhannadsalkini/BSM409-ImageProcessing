@@ -1,0 +1,14 @@
+Normalization and standardization are two common techniques used in data preprocessing, particularly in the context of machine learning and statistics. While both methods aim to scale and transform data, they differ in their approaches.
+
+Normalization:
+    Objective: The goal of normalization is to scale the values of a variable to a specific range, usually between 0 and 1.
+    Method: Normalization involves rescaling the data based on the minimum and maximum values of the variable.  
+    ​    
+    Outcome: After normalization, the variable's values lie within the [0, 1] range, making it suitable for algorithms that are sensitive to the scale of input features, such as neural networks and algorithms that rely on distance metrics.
+
+Standardization:
+    Objective: The aim of standardization is to transform the variable's values to have a mean of 0 and a standard deviation of 1.
+    
+    Outcome: After standardization, the variable's values are centered around 0, and their spread is adjusted by the standard deviation. Standardization is beneficial for algorithms that assume a Gaussian distribution of the input features or those that perform better when features are on a similar scale, such as support vector machines and principal component analysis.
+
+In summary, normalization and standardization are techniques used to scale and transform data, but they achieve different scaling objectives. Normalization scales data to a specific range, typically [0, 1], while standardization centers data around a mean of 0 and adjusts the spread using the standard deviation. The choice between normalization and standardization depends on the requirements of the specific algorithm and the characteristics of the data being processed.
